@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import styles from './App.module.scss';
 import { Component } from 'react';
-import { Link , Routes, Route} from 'react-router-dom';
+import { Link , Routes, Route, useLocation, useNavigate} from 'react-router-dom';
 import HomePage from './HomePage'
 import Book from './Book'
 import Bookcase from './Bookcase';
@@ -15,18 +14,25 @@ class App extends Component {
             <Link to="/"><div className={styles.boxleft}>bookChain</div></Link>
           </div>
           <div className = {styles.boxright}>
-            <Link to="/"><p>Home</p></Link>
-            <Link to="/bookcase"><p>bookcase</p></Link>
+            <Link to="/"><p className={styles.rightButton}>log in</p></Link>
+            <Link to="/bookcase"><p className ={styles.rightButton}>bookcase</p></Link>
           </div>
         </header>
         <section className = {styles.content}>
           <Routes>
-              <Route path="/" element={<HomePage/>}/>
+              <Route path="/" element={<HomePage/>} />
               <Route path="/bookcase" element={<Bookcase/>}/>
               <Route path="/books/:id" element={<Book/>}/>
           </Routes>
         </section>
-        <footer className = {styles.footer}>底部</footer>
+        <footer className = {styles.footer}>
+            <h3>
+            信箱：jjjcd@gmail.com
+            </h3> 
+        <div>
+          <a href="https://fortunenina.pixnet.net/blog/post/113760749" target="_blank">更多訊息</a>
+        </div>
+        </footer>
       </div>
     );
   }
