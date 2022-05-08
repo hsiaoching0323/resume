@@ -4,6 +4,6 @@ import booksData from '../books.json'
 
 export default () =>{
     return <div>
-            <BookLists dataSource = {booksData.data} />
+            <BookLists dataSource={booksData.data} />
         </div>
 }

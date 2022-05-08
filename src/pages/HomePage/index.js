@@ -11,7 +11,6 @@ function Home(){
                 <li>懸疑</li>
             </ul>
             <div className={styles.right}>
-
             </div>
         </div>
     );

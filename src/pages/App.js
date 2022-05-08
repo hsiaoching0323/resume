@@ -1,9 +1,10 @@
 import styles from './App.module.scss';
 import { Component } from 'react';
 import { Link , Routes, Route, useLocation, useNavigate} from 'react-router-dom';
-import HomePage from './HomePage'
-import Book from './Book'
+import HomePage from './HomePage';
+import Book from './Book';
 import Bookcase from './Bookcase';
+import Login from './Login';
 
 class App extends Component {
   render(){
@@ -14,13 +15,14 @@ class App extends Component {
             <Link to="/"><div className={styles.boxleft}>bookChain</div></Link>
           </div>
           <div className = {styles.boxright}>
-            <Link to="/"><p className={styles.rightButton}>log in</p></Link>
+            <Link to="/login"><p className={styles.rightButton}>log in</p></Link>
             <Link to="/bookcase"><p className ={styles.rightButton}>bookcase</p></Link>
           </div>
         </header>
         <section className = {styles.content}>
           <Routes>
               <Route path="/" element={<HomePage/>} />
+              <Route path="/login" element={<Login/>} />
               <Route path="/bookcase" element={<Bookcase/>}/>
               <Route path="/books/:id" element={<Book/>}/>
           </Routes>
