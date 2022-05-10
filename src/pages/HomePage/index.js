@@ -1,5 +1,7 @@
-import React,{Component} from 'react'
+import React,{Component} from 'react';
 import styles from './index.module.scss';
+import booksData from '../books.json';
+import BookLists from '../../components/BookLists'
 function Home(){
     return (
         <div className={styles.home}>
@@ -11,6 +13,7 @@ function Home(){
                 <li>懸疑</li>
             </ul>
             <div className={styles.right}>
+                <BookLists dataSource={booksData.data} />
             </div>
         </div>
     );

@@ -7,7 +7,8 @@
     flex: 1;
   }
   .header{
-    height: 40px;
+    background-color: #faebd7;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     a{
@@ -16,12 +17,15 @@
     .boxleft{
       padding-left: 20px;
       padding: 10px;
-      background-color: #faebd7;
       color: #9152d0;
+      box-sizing: border-box;
+      font-size: 20px;
     }
     .boxright{
       display: flex;
-      p{
+      a{
+        box-sizing: border-box;
+        font-size: 20px;
         color: #d05252;
         padding: 10px;
       }

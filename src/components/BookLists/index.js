@@ -4,7 +4,7 @@ import styles from './book.module.scss'
 
 function BookLists({dataSource}){
     return (
-        <div>
+        <div className={styles.book}>
             <ul>
                 {
                     dataSource && dataSource.map(item=>

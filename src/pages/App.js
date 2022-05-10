@@ -15,8 +15,8 @@ class App extends Component {
             <Link to="/"><div className={styles.boxleft}>bookChain</div></Link>
           </div>
           <div className = {styles.boxright}>
-            <Link to="/login"><p className={styles.rightButton}>log in</p></Link>
-            <Link to="/bookcase"><p className ={styles.rightButton}>bookcase</p></Link>
+            <Link to="/login" className={styles.rightButton}>log in</Link>
+            <Link to="/bookcase" className ={styles.rightButton}>bookcase</Link>
           </div>
         </header>
         <section className = {styles.content}>
