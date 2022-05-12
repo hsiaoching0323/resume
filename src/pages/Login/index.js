@@ -54,7 +54,9 @@ function Login() {
       // Setting a balance
       getbalance(account);
       console.log(data.address);
+      var account = data.address;
     };
+  
     return (
       <div className="Login">
         {/* Calling all values which we 
@@ -65,7 +67,10 @@ function Login() {
             </Button>
         </div>
         <div>
-            address:{data.address}
+            {/* address:{data.address} */}
+        </div>
+        <div>
+            balance:{data.Balance}
         </div>
       </div>
     );
