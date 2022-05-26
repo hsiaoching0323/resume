@@ -2,6 +2,7 @@
   "name": "book",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hsiaoching0323.github.io/resume/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
