@@ -2,9 +2,8 @@ import styles from './App.module.scss';
 import { Component } from 'react';
 import { Link , Routes, Route, useLocation, useNavigate} from 'react-router-dom';
 import HomePage from './HomePage';
-import Book from './Book';
-import Bookcase from './Bookcase';
-import Login from './Login';
+import Workcase from './Workcase';
+
 
 class App extends Component {
   render(){
@@ -12,27 +11,24 @@ class App extends Component {
       <div className={styles.App}>
         <header className={styles.header}>
           <div className = {styles.box}>
-            <Link to="/"><div className={styles.boxleft}>bookChain</div></Link>
+            <Link to="/"><div className={styles.boxleft}>home</div></Link>
           </div>
           <div className = {styles.boxright}>
-            <Link to="/login" className={styles.rightButton}>log in</Link>
-            <Link to="/bookcase" className ={styles.rightButton}>bookcase</Link>
+            <Link to="/workcase" className ={styles.rightButton}>Workcase</Link>
           </div>
         </header>
         <section className = {styles.content}>
           <Routes>
               <Route path="/" element={<HomePage/>} />
-              <Route path="/login" element={<Login/>} />
-              <Route path="/bookcase" element={<Bookcase/>}/>
-              <Route path="/books/:id" element={<Book/>}/>
+              <Route path="/workcase" element={<Workcase/>}/>
           </Routes>
         </section>
         <footer className = {styles.footer}>
             <h3>
-            信箱：jjjcd@gmail.com
+            信箱：judywang9566@gmail.com
             </h3> 
         <div>
-          <a href="https://fortunenina.pixnet.net/blog/post/113760749" target="_blank">更多訊息</a>
+          <a href="https://www.facebook.com/meteor.wang.77" target="_blank">facebook</a>
         </div>
         </footer>
       </div>
