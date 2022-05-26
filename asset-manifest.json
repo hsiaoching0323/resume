@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.6dbbb701.css",
-    "main.js": "/resume/static/js/main.d158ea43.js",
-    "static/js/787.93359fbf.chunk.js": "/resume/static/js/787.93359fbf.chunk.js",
+    "main.js": "/resume/static/js/main.f219d03f.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/resume/static/js/787.dc9ee2bf.chunk.js",
     "static/media/圖1.jpeg": "/resume/static/media/圖1.8894fc71b6b1f68d6b34.jpeg",
     "index.html": "/resume/index.html",
     "main.6dbbb701.css.map": "/resume/static/css/main.6dbbb701.css.map",
-    "main.d158ea43.js.map": "/resume/static/js/main.d158ea43.js.map",
-    "787.93359fbf.chunk.js.map": "/resume/static/js/787.93359fbf.chunk.js.map"
+    "main.f219d03f.js.map": "/resume/static/js/main.f219d03f.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/resume/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6dbbb701.css",
-    "static/js/main.d158ea43.js"
+    "static/js/main.f219d03f.js"
   ]
 }
