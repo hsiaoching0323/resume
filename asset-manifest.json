@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f0cfd46.css",
+    "main.js": "/static/js/main.157fe11d.js",
+    "static/js/787.93359fbf.chunk.js": "/static/js/787.93359fbf.chunk.js",
+    "static/media/圖1.jpeg": "/static/media/圖1.8894fc71b6b1f68d6b34.jpeg",
+    "index.html": "/index.html",
+    "main.2f0cfd46.css.map": "/static/css/main.2f0cfd46.css.map",
+    "main.157fe11d.js.map": "/static/js/main.157fe11d.js.map",
+    "787.93359fbf.chunk.js.map": "/static/js/787.93359fbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f0cfd46.css",
+    "static/js/main.157fe11d.js"
+  ]
+}
